@@ -1,15 +1,21 @@
 source: "./"
 theme: jekyll-theme-cayman
 collections:
-  shop/balls:
+  balls:
     output: true
+    path: _shop/_balls
   caps:
     output: true
-  shop/coats:
+    path: _shop/_caps
+  coats:
     output: true
-  shop/fur:
+    path: _shop/_coats
+  fur:
     output: true
-  shop/items:
+    path: _shop/_fur
+  items:
     output: true
-  shop/shoes:
+    path: _shop/_items
+  shoes:
     output: true
+    path: _shop/_shoes

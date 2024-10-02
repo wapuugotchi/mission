@@ -1,0 +1,8 @@
+_site
+/.idea/.gitignore
+/.idea/deployment.xml
+/.idea/sonarlint/issuestore/index.pb
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/wapuu-collection.iml
+Gemfile.lock

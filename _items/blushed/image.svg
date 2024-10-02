@@ -1,0 +1,16 @@
+<svg version="1.1" id="wapuugotchi_svg__item" viewBox="0 0 1e3 1e3" xmlns="http://www.w3.org/2000/svg">
+	<g class="Face--group">
+		<radialGradient id="BlushLeft_1_" cx="497.73" cy="387.13" r="15.074" gradientUnits="userSpaceOnUse">
+			<stop style="stop-color:#FF9349" offset="0"/>
+			<stop style="stop-color:#ffcc00;stop-opacity:0" offset=".8793"/>
+		</radialGradient>
+
+		<radialGradient id="BlushRight_1_" cx="420.75" cy="403.99" r="15.074" gradientTransform="matrix(.8707 0 0 .8707 54.525 52.34)" gradientUnits="userSpaceOnUse">
+			<stop style="stop-color:#FF9349" offset="0"/>
+			<stop style="stop-color:#ffcc00;stop-opacity:0" offset=".8793"/>
+		</radialGradient>
+
+		<circle cx="497.7" cy="387.1" r="15.1" fill="url(#BlushLeft_1_)"/>
+		<circle cx="420.9" cy="404.1" r="13.1" fill="url(#BlushRight_1_)"/>
+	</g>
+</svg>

@@ -1,0 +1,76 @@
+---
+title: Wapuugotchi collection JSON Schema
+permalink: /schema/collection/
+meta: [name,author,description,published,license]
+---
+{
+    "$id": "https://mission.wapuugotchi.com/schema/collection",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "type": "object",
+    "$defs": {
+        "https://mission.wapuugotchi.com/schema/element": {
+            "$id": "https://mission.wapuugotchi.com/schema/element",
+            "type": "object",
+            "properties": {
+                "meta": {
+                    "type": "object",
+                    "properties": {
+                        {% for var in page.meta %}"{{ var }}": {
+                            "type": "string"
+                        },
+                        {% endfor %}"deactivated": {
+                            "type": "number"
+                        },
+                        "priority": {
+                            "type": "number"
+                        },
+                        "price": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        {% for var in page.meta %}"{{ var }}",{% endfor %},
+                        "price"
+                    ]
+                },
+                "image": {
+                    "type": "string"
+                },
+                "preview": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "meta",
+                "image",
+                "preview"
+            ]
+        }
+    },
+    "properties": {
+        "collections": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "$ref": "/schema/element"
+                    }
+                },
+                "image": {
+                    "type": "string"
+                },
+                "caption": {
+                    "type": "string"
+                },
+                "slug": {
+                    "type": "string",
+                    "pattern": "^[a-z]*$"
+                }
+            }
+        }
+    }
+}

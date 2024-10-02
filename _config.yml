@@ -6,10 +6,10 @@ collections:
     relative_directory: _shop/_balls
   caps:
     output: true
-    directory: _shop/_caps
+    directory: shop/caps
   coats:
     output: true
-    directory: _shop/_coats
+    relative_directory: shop/coats
   fur:
     output: true
     directory: _shop/_fur

@@ -3,7 +3,7 @@ theme: jekyll-theme-cayman
 collections:
   balls:
     output: true
-    directory: _shop/_balls
+    relative_directory: _shop/_balls
   caps:
     output: true
     directory: _shop/_caps

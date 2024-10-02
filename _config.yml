@@ -1,8 +1,6 @@
 source: "./"
 theme: jekyll-theme-cayman
 collections:
-  shop/balls:
-    output: false
   shop/caps:
     output: true
   shop/coats:

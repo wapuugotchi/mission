@@ -3,7 +3,7 @@ theme: jekyll-theme-cayman
 collections:
   shop/balls:
     output: true
-  shop/caps:
+  caps:
     output: true
   shop/coats:
     output: true

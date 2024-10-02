@@ -6,7 +6,7 @@ collections:
     relative_directory: _shop/_balls
   caps:
     output: true
-    directory: shop/caps
+    relative_path: shop/caps
   coats:
     output: true
     relative_directory: shop/coats

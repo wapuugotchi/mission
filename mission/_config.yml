@@ -1,0 +1,5 @@
+source: "./"
+theme: jekyll-theme-cayman
+collections:
+  missions:
+    output: true

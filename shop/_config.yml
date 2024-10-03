@@ -19,6 +19,3 @@ collections:
   shoes:
     output: true
     permalink: /collection
-  missions:
-    output: true
-    permalink: /mission

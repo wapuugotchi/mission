@@ -3,7 +3,7 @@ theme: jekyll-theme-cayman
 collections:
   mission:
     output: true
-    folder: mission
+    folder: _mission
   shop:
     output: true
-    folder: shop
+    folder: _shop

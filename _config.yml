@@ -21,4 +21,4 @@ collections:
     permalink: /:collection
   missions:
     output: true
-    permalink: /:mission
+    permalink: /missions/:slug

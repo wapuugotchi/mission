@@ -3,22 +3,22 @@ theme: jekyll-theme-cayman
 collections:
   balls:
     output: true
-    permalink: /:collection
+    permalink: /collection
   caps:
     output: true
-    permalink: /:collection
+    permalink: /collection
   coats:
     output: true
-    permalink: /:collection
+    permalink: /collection
   fur:
     output: true
-    permalink: /:collection
+    permalink: /collection
   items:
     output: true
-    permalink: /:collection
+    permalink: /collection
   shoes:
     output: true
-    permalink: /:collection
+    permalink: /collection
   missions:
     output: true
-    permalink: /missions/:slug
+    permalink: /mission

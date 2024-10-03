@@ -1,5 +1,17 @@
 source: "./"
 theme: jekyll-theme-cayman
 collections:
-  shop:
+  balls:
+    output: true
+  caps:
+    output: true
+  coats:
+    output: true
+  fur:
+    output: true
+  items:
+    output: true
+  shoes:
+    output: true
+  missions:
     output: true

@@ -3,7 +3,9 @@ theme: jekyll-theme-cayman
 collections:
   mission:
     output: true
+    permalink: /mission/:path/:title/  # Berücksichtigt die Unterordner
     folder: _mission
   shop:
     output: true
+    permalink: /shop/:path/:title/  # Berücksichtigt die Unterordner
     folder: _shop

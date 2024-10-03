@@ -1,0 +1,9 @@
+source: "./"
+theme: jekyll-theme-cayman
+collections:
+  mission:
+    output: true
+    folder: mission
+  shop:
+    output: true
+    folder: shop
